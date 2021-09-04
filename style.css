@@ -97,6 +97,9 @@ nav .fa{
 }
 .footer{
     display: flex;
+    bottom: 0px;
+    width: 100%;
+    /* position: fixed; */
     align-items: center;
     justify-content: center;
  background-color: black;
@@ -126,6 +129,23 @@ nav .fa{
     border-bottom:1px solid #CCC;
     padding-bottom:3px;
 }
+/* languages */
+.lang-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+
+   }
+.lang-name-header{
+    font-size: 35px;
+    background-color: blueviolet;
+    width: 150px;
+    border-radius: 20px;
+  
+   
+
+}
 /* playlist css */
 .playlist-box{
     display: flex;
@@ -133,11 +153,11 @@ nav .fa{
     justify-content: center;
     margin-bottom: 10px;
 }
-.apni-kaksha{
+.vb{
     margin-left: 10px;
     margin-right: 10px;
 }
-.tuf{
+.vb{
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -193,4 +213,35 @@ nav .fa{
       
         font-size: 23px;
     }
+}
+@media(max-width:1366px) and (min-width:700px)
+{     
+    .playlist-box{
+        flex-direction: column;
+     }
+    .phone-playlist{
+        width: 650px;
+        height: 280px;
+        flex-wrap: wrap;
+
+    }
+.nav-links ul li a
+{
+    font-size: 30px;
+    padding-left: 2px;
+    padding-right: 2px;
+   
+}
+}
+@media(max-width:1024px) and (min-width:768px)
+{
+.nav-links ul li a
+{
+    font-size: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+   
+}
 }
