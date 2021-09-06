@@ -115,7 +115,7 @@ nav .fa {
   margin-top: 80px;
 }
 
-.ds-content h1 {
+.vedio-content h1 {
   text-align: center;
   margin: 20px;
   font-size: 40px;
@@ -128,7 +128,9 @@ nav .fa {
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 20px ;
+  margin-top: 20px;
+
 }
 .lang-name-header {
   font-size: 35px;
@@ -147,9 +149,11 @@ nav .fa {
 .vb {
   margin-left: 10px;
   margin-right: 10px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color:royalblue; */
   }
 /* .phone-playlist{
+    border-radius: 15px;
     background-color: black;
     
 } */
@@ -201,7 +205,7 @@ nav .fa {
     width: 300px;
     height: 250px;
   }
-  .ds-content h1 {
+  .vedio-content h1 {
     font-size: 23px;
   }
 }
