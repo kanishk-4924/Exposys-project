@@ -205,6 +205,10 @@ nav .fa {
     width: 300px;
     height: 250px;
   }
+  .cwhjp{
+    width: 300px;
+    height: 250px;
+  }
   .vedio-content h1 {
     font-size: 23px;
   }
@@ -216,7 +220,7 @@ nav .fa {
   .phone-playlist {
     width: 650px;
     height: 280px;
-    flex-wrap: wrap;
+   
   }
   .nav-links ul li a {
     font-size: 30px;
